@@ -1,0 +1,9 @@
+section {
+  color: white;
+}
+
+section > h2 {
+  font-weight: bold;
+  font-family: "Bw Modelica", sans-serif;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,21 @@
+.caroussel {
+  display: flex;
+  margin-bottom: 40px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.caroussel img {
+  object-fit: cover;
+  object-position: center;
+  height: 115px;
+  width: 220px;
+}
+
+.caroussel a:hover img {
+  opacity: 0.8;
+}
